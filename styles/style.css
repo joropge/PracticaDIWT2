@@ -1,0 +1,64 @@
+html{
+    font-family:Arial, sans-serif;
+}
+p{
+    font-size: 20px;
+}
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+section{
+    text-align: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 30px;
+}
+
+.section1{
+    background-color: aquamarine;
+    font-weight: bold;
+}
+.section2{
+   
+
+}
+
+.section3{
+
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+}
+img{
+    width:50%;
+    transition: transform 0.3s ease;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
