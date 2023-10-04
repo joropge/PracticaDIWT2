@@ -1,33 +1,38 @@
-html{
-    font-family:Arial, sans-serif;
+html {
+    font-family: Arial, sans-serif;
 }
-p{
+
+p {
     font-size: 20px;
 }
+
 header {
     background-color: black;
     text-align: center;
     color: white;
     padding: 20px;
 }
+
 footer {
     background-color: black;
     text-align: center;
     padding: 20px;
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     text-align: center;
     align-items: center;
 }
-section{
+
+section {
     text-align: center;
     justify-content: space-around;
     border: 1px solid black;
@@ -35,30 +40,43 @@ section{
     margin: 30px;
 }
 
-.section1{
+.section1 {
     background-color: aquamarine;
     font-weight: bold;
 }
-.section2{
-   
 
+.section2 {
+    background-color: aquamarine;
+    color: rgba(143, 143, 8, 0.602);
+    font-weight: bold;
+    transition: all 0.5s ease;
+
+    &:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
-.section3{
-
-
+.section3 {
+    transition: all 0.3s ease;
+    
+    &:hover {
+        font-size: 25px;
+    }
 }
-ul{
+
+ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
-
 }
-img{
-    width:50%;
+
+img {
+    width: 50%;
     transition: transform 0.3s ease;
 
-    &:hover{
+    &:hover {
         transform: scale(1.1);
     }
 }
